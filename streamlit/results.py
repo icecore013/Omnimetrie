@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from bokeh.plotting import figure, show
+from bokeh.models.tools import HoverTool as Hovertool
+
 
 
 df = pd.read_csv('./streamlit/data.csv')
