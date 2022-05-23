@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from bokeh.plotting import figure, show
 
 
-df = pd.read_csv('data.csv', sep=';', decimal=',')
+df = pd.read_csv('./streamlit/data.csv', sep=';', decimal=',')
 x = df["tensiometre"]
 y = df["lse_humidite"]
 
