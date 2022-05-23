@@ -1,5 +1,5 @@
 seaborn>=0.11.0
 matplotlib==3.5.1
 requests >= 2.8.1
-bokeh 2.4.1
-streamlit>=1.8.1
+bokeh==2.0.2
+streamlit==0.76
