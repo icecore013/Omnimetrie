@@ -2,8 +2,7 @@ import streamlit as st
 
 import os  # +Deployment
 import inspect  # +Deployment
-import home
-import dataset
+import results
 import streamlit.components.v1 as components
 
 currentdir = os.path.dirname(os.path.abspath(
@@ -14,8 +13,7 @@ PAGE_CONFIG = {"page_title": "Omnimetrie", "page_icon": logo, "layout": "wide"}
 st.set_page_config(**PAGE_CONFIG)
 
 MENU_ = {
-    "Home": home,
-    "Dataset": dataset,
+    "Résultats": results,
 }
 
 st.sidebar.title('Menu')
