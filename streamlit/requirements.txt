@@ -2,3 +2,4 @@ seaborn>=0.11.0
 matplotlib==3.5.1
 streamlit-lottie
 requests >= 2.8.1
+bokeh 
